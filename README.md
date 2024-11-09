@@ -11,9 +11,4 @@ This project simulates an asynchronous online shopping experience in Python. It 
 
 This project requires Python 3.7 or later, as it utilizes `asyncio`, which comes built into modern versions of Python.
 
-## Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/ObidovMuhammad/Learning-Python-Asynchronous-Programming.git
 
