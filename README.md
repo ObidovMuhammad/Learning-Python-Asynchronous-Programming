@@ -15,4 +15,5 @@ This project requires Python 3.7 or later, as it utilizes `asyncio`, which comes
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/online-shopping-simulation.git
+   git clone https://github.com/ObidovMuhammad/Learning-Python-Asynchronous-Programming.git
+
