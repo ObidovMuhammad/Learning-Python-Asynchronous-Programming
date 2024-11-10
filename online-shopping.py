@@ -1,7 +1,7 @@
 import asyncio
 import random
 
-# Simulated delays (in seconds)
+
 delays = [1, 2, 3]
 
 async def browse_products():
@@ -25,17 +25,15 @@ async def process_payment():
     print("Payment successful!")
 
 async def main():
-    # Run browse and add to cart tasks concurrently
+
     await asyncio.gather(
         browse_products(),
         add_to_cart("Laptop"),
         add_to_cart("Headphones")
     )
     
-    # Perform checkout and payment sequentially
     await checkout()
     await process_payment()
     print("Order completed successfully!")
 
-# Run the main function using asyncio
 asyncio.run(main())
